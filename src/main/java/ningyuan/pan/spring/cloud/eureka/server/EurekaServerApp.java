@@ -10,7 +10,7 @@ import ningyuan.pan.spring.cloud.eureka.server.config.ApplicationConfig;
  *
  */
 @SpringBootApplication
-public class Application {
+public class EurekaServerApp {
 
 	public static void main(String[] args) {
 		SpringApplication bootstrap = new SpringApplication(ApplicationConfig.class);
